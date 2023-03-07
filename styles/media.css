@@ -1,0 +1,144 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .about .container {
+        justify-content: center;
+    }
+
+    .about__title {
+        padding: 80px 370px 50px;
+    }
+
+    .about__desc {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .catalog .container {
+        position: relative;
+    }
+
+    .catalog__cards {
+        flex-wrap: wrap;
+        max-width: 800px;
+        width: 100%;
+        column-gap: 130px;
+        row-gap: 100px;
+        justify-content: center;
+        margin-left: 70px;
+    }
+
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__nav .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__form {
+        padding-top: 0;
+    }
+
+    .about__title {
+        padding: 80px 255px 50px 255px;
+    }
+
+    .catalog__cards {
+        margin-left: 0;
+        column-gap: 87px;
+    }
+
+    .contacts__desc:nth-child(1) {
+        max-width: 455px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 760px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .about__title {
+        padding: 80px 165px 50px 165px;
+    }
+
+    .about__img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .contacts__desc:nth-child(1) {
+        max-width: 300px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: auto;
+    }
+
+    .header__nav .container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .header__logo {
+        padding: 30px 102px 0;
+    }
+
+    .header__list {
+        max-width: 280px;
+        width: 100%;
+        padding: 20px 0 35px 13px;
+    }
+
+    .header__form {
+        justify-content: center;
+    }
+
+    .header__input {
+        max-width: 130px;
+        width: 100%;
+        padding: 8px 0 8px 20px;
+    }
+
+    .header__title:nth-child(2) {
+        text-align: center;
+    }
+
+    .about__title {
+        padding: 80px 45px 50px 45px;
+    }
+
+    .about__img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .contacts .container {
+        text-align: center;
+    }
+
+    .contacts__descs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__desc:nth-child(1) {
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
